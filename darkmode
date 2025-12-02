@@ -1,9 +1,9 @@
 /* ==UserStyle==
-@name           ?
+@name           Eminus 5 - Dark Mode
 @namespace      github.com/openstyles/stylus
 @version        1.0.0
 @description    A new userstyle
-@author         Me
+@author         Angel Guzman
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://eminus.uv.mx/eminus4") {
@@ -19,21 +19,33 @@
         background-color: rgb(26, 26, 26) !important;
     }
     
-    .m-login__title_system img {
-        filter: drop-shadow(0px 0px 20px #00cdfe) saturate(40%) invert(100%);
+    .m-login__title {
+        color: #9999a0 !important;
     }
     
-    .m-login__title {
-        margin-top: 1rem;
-        color: #818187 !important;
+    .m-login__title_system > img:nth-child(1) {
+        content: url('https://raw.githubusercontent.com/iAngelGuzman/Eminus5-DarkMode/main/EMINUS_DM_login.svg') !important;
+    }
+    
+    .m-grid__item--order-tablet-and-mobile-2 {
+        background-image: url('https://cdn.dribbble.com/userupload/42259831/file/original-7824f335d663467e4c7a3313f3e20cd8.gif') !important;
+        background-position: center;
     }
     
     .m-login__form {
         background-color: transparent !important;
     }
     
-    mat-label {
+    mat-label, mat-icon {
         color: rgb(200, 200, 200) !important;
+    }
+    
+    .m-login__head span {
+      font-size: 15px !important;
+    }
+    
+    .helpImageBackground[_ngcontent-c2] {
+      background-color: #222;
     }
     
     /* CONTENT */
@@ -271,6 +283,31 @@
         color: rgb(200, 200, 200);
     }
     
+    .m-aside-left.m-aside-left--skin-blue {
+      background-color: #061e36;
+    }
+    
+    .m-aside-menu.m-aside-menu--skin-blue .m-menu__nav > .m-menu__item.m-menu__item--active {
+        background-color: #02577c;
+        border-left: 9px solid #7cbdff;
+    }
+    
+    .m-aside-menu.m-aside-menu--skin-blue .m-menu__nav > .m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):hover {
+      background-color: #006c9b;
+      border-left: 9px solid #8ac4ff;
+    }
+    
+    .m-aside-menu.m-aside-menu--skin-blue .m-menu__nav > .m-menu__item.m-menu__item--active > .m-menu__link .m-menu__link-icon {
+      color: #d2d2d2 !important;
+    }
+    
+    .m-aside-menu.m-aside-menu--skin-blue .m-menu__nav > .m-menu__item:hover .m-menu__link-icon, .m-aside-menu.m-aside-menu--skin-blue .m-menu__nav > .m-menu__item:hover .m-menu__link-text {
+      color: #d2d2d2 !important;
+    }
+    
+    body > app-root:nth-child(1) > app-principal-activity-layout:nth-child(2) {
+      background: rgb(26, 26, 26) !important;
+    }
     
     
     /* ANIMATIONS */
