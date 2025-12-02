@@ -1,0 +1,284 @@
+/* ==UserStyle==
+@name           ?
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document url-prefix("https://eminus.uv.mx/eminus4") {
+    /* Creado por Angel Guzman */
+    html, body {
+        color: white !important;
+        background: rgb(26, 26, 26) !important;
+        background-color: rgb(26, 26, 26) !important;
+    }
+    
+    /* LOGIN */
+    .g-bg-white {
+        background-color: rgb(26, 26, 26) !important;
+    }
+    
+    .m-login__title_system img {
+        filter: drop-shadow(0px 0px 20px #00cdfe) saturate(40%) invert(100%);
+    }
+    
+    .m-login__title {
+        margin-top: 1rem;
+        color: #818187 !important;
+    }
+    
+    .m-login__form {
+        background-color: transparent !important;
+    }
+    
+    mat-label {
+        color: rgb(200, 200, 200) !important;
+    }
+    
+    /* CONTENT */
+    
+    .MainTittleUV {
+        background-color: #082e69 !important;
+    }
+    
+    .m-brand.m-brand--skin-blue {
+        background: #073b77 !important;
+    }
+    
+    footer {
+        color: rgb(200, 200, 200) !important;
+        background-color: #052a65 !important;
+    }
+    
+    .mat-card {
+        color: rgb(200, 200, 200) !important;
+        background-color: #242424 !important;
+    }
+    
+    .form-control {
+        color: white !important;
+        background-color: rgb(51, 51, 51) !important;
+        border-color: rgb(51, 51, 51) !important;
+    }
+    
+    .bg-white {
+        background-color: rgb(51, 51, 51) !important;
+    }
+    
+    .bg-light {
+        background-color: rgb(60, 60, 60) !important;
+    }
+    
+    .text-white {
+        color: #e5e5e5 !important;
+    }
+    
+    .mat-select-value {
+        color: rgba(255, 255, 255, .6);
+    }
+    
+    .button_arrow_down {
+        background-color: rgb(51, 51, 51) !important;
+        border-color: rgb(70, 70, 70) !important;
+    }
+    
+    .border-top {
+        border-top: 1px solid #646567 !important;
+    }
+    .border-bottom {
+        border-bottom: 1px solid #646567 !important;
+    }
+    
+    .border-left {
+        border-left: 1px solid #646567 !important;
+    }
+    
+    .border-right {
+        border-right: 1px solid #646567 !important;
+    }
+    
+    .ng-select .ng-select-container {
+        background-color: rgb(51, 51, 51) !important;
+        border: 1px solid rgb(70, 70, 70) !important;
+        color: #b7c2cd;
+    }
+    
+    .ng-dropdown-panel .ng-dropdown-panel-items .ng-option.ng-option-marked {
+        background-color: rgb(51, 51, 51);
+        color: #b7c2cd;
+    }
+    
+    .ng-dropdown-panel .ng-dropdown-panel-items .ng-option {
+        background-color: rgb(51, 51, 51);
+        color: rgba(255, 255, 255, .87);
+    }
+    
+    .ng-dropdown-panel {
+        border: 1px solid rgb(70, 70, 70);
+        background-color: rgb(51, 51, 51);
+    }
+    
+    .ng-dropdown-panel.ng-select-bottom {
+        border-top-color: rgb(70, 70, 70);
+    }
+    
+    form {
+        color: white !important;
+        background-color: #242424 !important;
+    }
+    
+    body > m-pages > main > div > m-course > m-course-list > div.container.p-0.ng-star-inserted > div > div.row.w-100.SEARCH_BAR_BOX > div:nth-child(2) > div > filter-web-version > form {
+        background-color: #242424 !important;
+    }
+    
+    .mat-expansion-panel {
+        background: rgb(51, 51, 51) !important;
+        color: rgba(255, 255, 255, .87) !important;
+        padding: .4rem 1rem 1rem 1rem !important;
+    }
+    
+    body > m-pages > main > div > m-course > m-course-list > div.container.p-0.ng-star-inserted > div > div.row.w-100.SEARCH_BAR_BOX > div:nth-child(2) > div > filter-web-version > form > div:nth-child(6) > div:nth-child(1) {
+        border-bottom: 2.5px solid #646567 !important;
+    }
+    
+    .mat-expansion-panel-header-title {
+        color: rgba(255, 255, 255, .87);
+    }
+    
+    .mat-select-content, .mat-select-panel-done-animating {
+        background: #242424;
+    }
+    
+    .mat-option-text {
+        color: white;
+    }
+    
+    .cs-btn {
+        border-top: 1px solid rgb(70, 70, 70);
+        border-right: 1px solid rgb(70, 70, 70);
+        border-bottom: 1px solid rgb(70, 70, 70);
+        border-left: 1px solid rgb(70, 70, 70);
+        color: #d1d1d1;
+    }
+    
+    .dropdown-menu {
+        color: #b7c2cd;
+        background-color: rgb(51, 51, 51);
+        border: 1px solid rgb(40, 40, 40);
+    }
+    
+    .custom-select {
+        color: #b7c2cd;
+        background-color: rgb(51, 51, 51);
+        border: 1px solid rgb(40, 40, 40);
+    }
+    
+    .btn-link {
+        color: #b7c2cd !important;
+    }
+    
+    .BTN_NEW_COURSE[_ngcontent-c3], .BTN_SEARCH[_ngcontent-c3], .treeselectButtonG[_ngcontent-c3] {
+        background: #185516;
+    }
+    
+    .ng-select .ng-arrow-wrapper {
+        background: #185516 !important;
+    }
+    
+    .range-to {
+        background-color: #185516;
+        border: 1px solid #0e320d;
+    }
+    
+    .button-search {
+        background: #185516;
+    }
+    
+    .mat-stroked-button.mat-stroked-button-green {
+        border: 1px solid #135811;
+        background: #185516;
+    }
+    
+    .btn-search-green[_ngcontent-c3] {
+        background: #185516 !important;
+    }
+    
+    .button-delete {
+        border: 1px solid #135811;
+        color: #115611;
+        background: #cbd8cc;
+    }
+    
+    .mat-stroked-button.mat-stroked-button-green-inline {
+        border: 1px solid #135811;
+        color: #115611;
+        background: #cbd8cc;
+    }
+    
+    .CardBodyCircle {
+        background-color: rgb(51, 51, 51) !important;
+    }
+    .GrayContrats {
+        color: #919191 !important;
+    }
+    
+    .CardHeaderContainer[_ngcontent-c3] {
+        background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .4), rgba(0, 0, 0, .05));
+    }
+    
+    .treeselect {
+        color: rgb(200, 200, 200);
+    }
+    
+    .m-splash-screen {
+        background-color: rgb(26, 26, 26);
+    }
+    
+    .mat-menu-content, .mat-menu-panel {
+        background-color: rgb(51, 51, 51);
+    }
+    
+    .mat-menu-content span:not(.GrayContrats) {
+        color: rgb(54, 163, 51) !important;
+    }
+    
+    .btn-newMessage[_ngcontent-c3] {
+        background-color: rgb(26 84 117) !important;
+        color: rgb(172 204 241) !important;
+    }
+    
+    .ListBtnMenuActiveB.active[_ngcontent-c3], .ListBtnMenuActiveB[_ngcontent-c3]:hover {
+        color: rgb(172 204 241) !important;
+        background: rgb(26 84 117);
+    }
+    
+    .ListBtnMenu[_ngcontent-c3] li[_ngcontent-c3] {
+        color: #878787;
+    }
+    
+    .ListBtnMenu[_ngcontent-c3] li[_ngcontent-c3]:hover {
+        font-weight: 500 !important;
+    }
+    
+    .header-bar-messages[_ngcontent-c3] {
+        color: rgb(172 204 241) !important;
+        background: rgb(26 84 117);
+    }
+    
+    .mat-paginator {
+        background: transparent;
+        color: rgb(200, 200, 200);
+    }
+    
+    
+    
+    /* ANIMATIONS */
+    .container_courses .mat-card {
+        transform: scale(1.0);
+        transition: transform 0.3s ease;
+    }
+    .container_courses .mat-card:hover {
+        transform: scale(1.05);
+    }
+}
