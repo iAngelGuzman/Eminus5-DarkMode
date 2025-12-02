@@ -90,7 +90,7 @@
         color: rgba(255, 255, 255, .6);
     }
     
-    .button_arrow_down {
+    .button_arrow_down, .scroll-units {
         background-color: rgb(51, 51, 51) !important;
         border-color: rgb(70, 70, 70) !important;
     }
@@ -307,6 +307,35 @@
     
     body > app-root:nth-child(1) > app-principal-activity-layout:nth-child(2) {
       background: rgb(26, 26, 26) !important;
+    }
+    
+    .m-content-sub {
+      background: rgb(26, 26, 26) !important;
+    }
+    
+    .alert {
+      background: #242424;
+    }
+    .kt-portlet_brd {
+      border: 1px solid rgb(60, 60, 60) !important;
+    }
+    .kt-portlet__body-files .kt-widget4 .kt-widget4__item {
+        border: 1px solid rgb(60, 60, 60);
+        background-color: rgb(50, 50, 50);
+    }
+    .kt-portlet__body-files .kt-widget4 .kt-widget4__item .kt-widget4__title .name-file, .m--font-brand-action {
+        color: white !important;
+    }
+    .size-file {
+        color: rgb(150, 150, 150) !important;
+    }
+    
+    .mIV-bg-Comments {
+      background-color: rgb(51, 51, 51) !important;
+    }
+    
+    .kt-total, .mat-hint {
+        color: rgb(255, 255, 255, .6) !important;
     }
     
     
